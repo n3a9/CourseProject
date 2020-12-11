@@ -1,0 +1,31 @@
+{
+    "n_last_context":2,
+    "data-path": "../../data/",
+    "train-data-filename":"train.jsonl",
+    "test-data-filename":"test.jsonl",
+
+    "processed-data-path":"./processed-data/",
+    "processed-train-data-filename":"processed_train.csv",
+    "processed-test-data-filename":"processed_test.csv",
+
+    "features-path": "./features/",
+    "features-train-filename":"features_labels_train.json",
+    "features-test-filename":"features_test.json",
+
+    "trained-model-save":"X",
+    "trained-model-path":"./trained-models/",
+    "trained-model-weight-filename":"cnn_model_weight.h5",
+
+    "train_test_split":0.1,
+    "embedding_dimensions":200,
+    "cnn_filters":100,
+    "dnn_units":128,
+    "dropout_rate":0.6,
+    
+    "verbose":2,
+    "n_epochs":3,
+    "batch_size":32,
+
+    "prediction-threshold":0.13,
+    "answer-file":"../../answer.txt"
+}
