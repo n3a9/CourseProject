@@ -8,3 +8,4 @@ scipy==1.5.2
 demoji==0.3.0
 bert-for-tf2==0.14.7
 scikit_learn==0.23.2
+sentencepiece==0.1.94
