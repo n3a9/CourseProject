@@ -13,8 +13,8 @@ from sklearn.ensemble import RandomForestClassifier
 from scipy.sparse import hstack
 
 
-train_df = pd.read_json("./data/train.json")
-test_df = pd.read_json("./data/test.json")
+train_df = pd.read_json("./data/train.jsonl", lines=True)
+test_df = pd.read_json("./data/test.jsonl", lines=True)
 
 """
 Preprocess string
@@ -68,8 +68,6 @@ X_test = hstack([X_test_context, X_test_response])
 Predictions and write to answer.txt
 """
 predictions = svm.predict_proba(X_test)
-print(predictions)
-predictions = svm.predict(X_test)
 
 f = open("predicitions.txt", "w")
 for p in predictions:
@@ -86,7 +84,7 @@ f.close()
 labels = []
 
 for p in predictions:
-    if p > 0.44:
+    if p[1] > 0.44:
         labels.append("SARCASM")
     else:
         labels.append("NOT_SARCASM")
