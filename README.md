@@ -19,31 +19,44 @@ bert-for-tf2
 
 You can automatically install all of these packages by running `pip install -r requirements.txt`. Then, clone this repo and navigate into the project directory.
 
+## Usage
+
+### Machine Learning
+
+There are 4 machine learning models that are available for usage:
+
+- Random Forest Classifier `random_forest.py`
+- MLP Classifier `mlp_classifier.py`
+- SGD Classifier `sgd_classifier.py`
+- Logistic Regression `logistic_regression.py`
+
+### Deep Learning
+
 There are two APIs that you can use.
 
-### Model Training
+#### Model Training
 
 `cd src/deeplearning`.
 
 If required, change the parameters file `params_config.json` at in `/parameters`. Refer to the parameters section below for details about the different parameters used during the model training.
 
-To run, `python modelTrain.py`. The trained model weights will be saved at `twitter-sarcasm-detection/src/deeplearning/trained-models` in `cnn_model_weight.h5` file.
+To run, `python modelTrain.py`. The trained model weights will be saved at `./trained-models` in `cnn_model_weight.h5` file.
 
 Note: For the project verification purpose, model training can be performed by changing different parameters(refer to Parameters section below). Currently by default any new trained model weights will not be saved, however, caution should be taken that any new trained model weights if saved can vary the final results.
 
-### Model Inference
+#### Model Inference
 
 `cd src/deeplearning`.
 
 If required, change the parameters file `params_config.json` at in `/parameters`. Refer to the parameters section below for details about the different parameters used during the modelinference.
 
-To run, `python modelInference.py`. The final predictions will be saved at `twitter-sarcasm-detection/src` in `answer.txt` file.
+To run, `python modelInference.py`. The final predictions will be saved at `./src` in `answer.txt` file.
 
 Note: For project verification purpose run only the Model Inference.
 
-### Parameters
+#### Parameters
 
-Below is the list of parameters that are used during the model training and inference process. Refer to `params_config.json` file in the cloned repository at `twitter-sarcasm-detection/src/deeplearning/parameters`
+Below is the list of parameters that are used during the model training and inference process. Refer to `params_config.json` file in the cloned repository at `./parameters`
 
 | Name                          | Description                                                                                                                                                                                                                | Used In              |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
