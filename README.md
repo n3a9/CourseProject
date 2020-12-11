@@ -4,7 +4,7 @@ Twitter sarcasm detection by Samarth Keshari, Rishi Wadhwa, Neeraj Aggarwal.
 
 ## Installation
 
-The software is built with Python3. and uses the following packages.
+The software is built with Python3.7.7 and uses the following packages.
 
 ```
 emoji==0.6.0
@@ -19,7 +19,7 @@ bert-for-tf2==0.14.7
 scikit_learn==0.23.2
 ```
 
-You can automatically install all of these packages by first cloning this repo. Then navigate into the project directory run `pip install -r requirements.txt`.
+You can automatically install all of these packages by first cloning this repo. Then navigate into the project directory and run `pip install -r requirements.txt`.
 
 ## Usage
 
