@@ -6,5 +6,5 @@ numpy==1.18.5
 Keras==2.4.3
 scipy==1.5.2
 demoji==0.3.0
-bert==2.2.0
+bert-for-tf2==0.14.7
 scikit_learn==0.23.2
