@@ -30,6 +30,8 @@ There are 4 machine learning models that are available for usage:
 - SGD Classifier `sgd_classifier.py`
 - Logistic Regression `logistic_regression.py`
 
+To run the machine learning models, `python [file.py]`. It will generate an `answer.txt` in `./src/machinelearning`.
+
 ### Deep Learning
 
 There are two APIs that you can use.
