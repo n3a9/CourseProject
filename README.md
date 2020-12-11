@@ -19,7 +19,7 @@ bert-for-tf2==0.14.7
 scikit_learn==0.23.2
 ```
 
-You can automatically install all of these packages by running `pip install -r requirements.txt`. Then, clone this repo and navigate into the project directory.
+You can automatically install all of these packages by first cloning this repo. Then navigate into the project directory run `pip install -r requirements.txt`.
 
 ## Usage
 
