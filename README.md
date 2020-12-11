@@ -7,6 +7,7 @@ Twitter sarcasm detection by Samarth Keshari, Rishi Wadhwa, Neeraj Aggarwal.
 The software is built with Python3. and uses the following packages.
 
 ```
+emoji==0.6.0
 pandas==1.1.3
 nltk==3.5
 tensorflow==2.3.1
@@ -14,9 +15,8 @@ numpy==1.18.5
 Keras==2.4.3
 scipy==1.5.2
 demoji==0.3.0
-bert==2.2.0
+bert-for-tf2==0.14.7
 scikit_learn==0.23.2
-bert-for-tf2
 ```
 
 You can automatically install all of these packages by running `pip install -r requirements.txt`. Then, clone this repo and navigate into the project directory.
