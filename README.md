@@ -7,13 +7,15 @@ Twitter sarcasm detection by Samarth Keshari, Rishi Wadhwa, Neeraj Aggarwal.
 The software is built with Python3. and uses the following packages.
 
 ```
-regex
-emoji
-demoji
-pandas
-nltk
---upgrade tensorflow
-keras
+pandas==1.1.3
+nltk==3.5
+tensorflow==2.3.1
+numpy==1.18.5
+Keras==2.4.3
+scipy==1.5.2
+demoji==0.3.0
+bert==2.2.0
+scikit_learn==0.23.2
 bert-for-tf2
 ```
 
