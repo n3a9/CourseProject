@@ -67,7 +67,7 @@ Predictions and write to answer.txt
 """
 predictions = svm.predict(X_test)
 
-f = open("predicitions.txt", "w")
+f = open("predictions.txt", "w")
 for p in predictions:
     f.write(str(p[1]) + "\n")
 f.close()
@@ -79,11 +79,7 @@ f.close()
 #     predictions.append(float(f.readline()))
 # f.close()
 
-labels = []
-
-
-
 f = open("answer.txt", "w")
-for x, y in zip(test_df["id"], labels):
+for x, y in zip(test_df["id"], predictions):
     f.write(x + "," + y + "\n")
 f.close()
