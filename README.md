@@ -87,3 +87,7 @@ Below is the list of parameters that are used during the model training and infe
 | batch_size                    | Batch size for model training                                                                                                                                                                                              | Training             |
 | prediction-threshold          | Model predictions for test data are in terms of probabilities. For a particular test sample, if the prediction probability is above this threshold value, then the test sample is flagged as SARCASM otherwise NON-SARCASM | Inference            |
 | answer-file                   | Path + filename of the final results file in .txt format                                                                                                                                                                   | Inference            |
+
+## References
+- https://colab.research.google.com/drive/12noBxRkrZnIkHqvmdfFW2TGdOXFtNePM
+- https://stackoverflow.com/questions/43547402/how-to-calculate-f1-macro-in-keras
