@@ -27,5 +27,5 @@
     "batch_size":32,
 
     "prediction-threshold":0.13,
-    "answer-file":"../../answer.txt"
+    "answer-file":"answer.txt"
 }
