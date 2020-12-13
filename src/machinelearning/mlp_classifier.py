@@ -15,8 +15,8 @@ from sklearn.neural_network import MLPClassifier
 
 
 
-train_df = pd.read_json("./data/train.jsonl", lines=True)
-test_df = pd.read_json("./data/test.jsonl", lines=True)
+train_df = pd.read_json("../../data/train.jsonl", lines=True)
+test_df = pd.read_json("../../data/test.jsonl", lines=True)
 
 """
 Preprocess string

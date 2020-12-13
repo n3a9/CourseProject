@@ -13,8 +13,8 @@ from sklearn.ensemble import RandomForestClassifier
 from scipy.sparse import hstack
 
 
-train_df = pd.read_json("./data/train.jsonl", lines=True)
-test_df = pd.read_json("./data/test.jsonl", lines=True)
+train_df = pd.read_json("../../data/train.jsonl", lines=True)
+test_df = pd.read_json("../../data/test.jsonl", lines=True)
 
 """
 Preprocess string
